@@ -8,7 +8,7 @@
         <FormContent list_type="self"></FormContent>
         <br>
         <el-button v-if="isCheck" @click="performed" type="success">Mark As Finish</el-button>
-        <el-button v-if="isCheck" @click="updateForm" type="success">Upgrade</el-button>
+        <el-button v-if="isCheck" @click="updateForm" type="success">Update</el-button>
         <el-button v-if="isCheck" @click="deleteForm" type="danger">Delete</el-button>
       </el-col>
     </el-row>
